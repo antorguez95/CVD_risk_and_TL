@@ -10,13 +10,13 @@ develop an AI-based smartphone application to prevent chronic conditions, such a
 
 The content of the scripts are described below: 
 
-  - `Framingham_utils.py` and `Steno_utils.py`: blabla
-  - `exploratory_data_analysis.py`: blabla
-  - `model_evaluation.py`: blabla
-  - `sdg_utils.py`: blabla
-  - `train_utils.py`: blabla
-  - `profiling.py`: blabla
-  - `constants.py`: blabla
+  - `Framingham_utils.py` and `Steno_utils.py`: data curation and preparation of the datasets.
+  - `exploratory_data_analysis.py`: exploratory data analysis. 
+  - `model_evaluation.py`: model evaluation functions for the selected ML models. 
+  - `sdg_utils.py`: synthetic data generation functions used to balance the Framingham dataset
+  - `train_utils.py`: functions to train the model. 
+  - `profiling.py`: profiling functions extracted from [this example](https://scikit-learn.org/stable/auto_examples/applications/plot_prediction_latency.html#sphx-glr-auto-examples-applications-plot-prediction-latency-py)
+  - `constants.py`: file the the directories, filenames, dataset names, and numerical and categorical features. 
   - `steno2fram.ipynb`and `fram2steno.ipynb`are the Python Notebooks that contain the framework itself. The former taking Steno database as reference, and the latter taking Framingham dataset. 
 
 Please cite [our paper](https://dsd-seaa2023.com/) if this framework somehow helped you in your research and/or development work, or if you used this piece of code: 
