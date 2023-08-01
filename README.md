@@ -25,7 +25,7 @@ Please cite [our paper](https://dsd-seaa2023.com/) if this framework somehow hel
 
 ## Datasets Availability
 
-Both datasets are avilable under request to their authors (see [5] and [6] references in the [paper](https://dsd-seaa2023.com/) for Steno and Framingham availability, respectively).
+Both datasets are avilable under request to their authors (see [5] and [6] references in the [paper](https://dsd-seaa2023.com/) to check Steno and Framingham availability, respectively).
 
 ## Set up before running this code
 
