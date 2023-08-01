@@ -10,7 +10,7 @@ develop an AI-based smartphone application to prevent chronic conditions, such a
 
 The content of the scripts are described below: 
 
-  - Framingham.py and Steno_util.py: blabla
+  - `Framingham.py` and `Steno_util.py`: blabla
 
 Please cite [our paper](https://dsd-seaa2023.com/) if this piece of code somehow helped you in your research and/or development work, or if you used this piece of code: 
 
