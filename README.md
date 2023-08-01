@@ -27,7 +27,7 @@ Please cite [our paper](https://dsd-seaa2023.com/) if this framework somehow hel
 
 Both datasets are avilable under request to their authors (see [5] and [6] references in the [paper](https://dsd-seaa2023.com/) to check Steno and Framingham availability, respectively).
 
-## Set up before running this code
+## Requirements to run this code
 
 ## How do I run these scripts?
 
