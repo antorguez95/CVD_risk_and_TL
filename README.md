@@ -9,7 +9,7 @@ aiming a more personalized NCD risk estimation that the current regression-based
 develop an AI-based smartphone application to prevent chronic conditions, such as Diabetes Mellitus or Cardiovascular Diseases (CVD) by providing personalized recommendations depending on the subject and the variables that are collected from him. So, a preliminary basic high-level performance profiling has been also done to estimate the feasibility of implement this ML-based calculator in a micro-controller. 
 
 The content of the scripts are described below: 
-_Framingham.py and Steno_util.py: blabla
+  _Framingham.py and Steno_util.py: blabla
 
 Please cite [our paper](https://dsd-seaa2023.com/) if this piece of code somehow helped you in your research and/or development work, or if you used this piece of code: 
 
