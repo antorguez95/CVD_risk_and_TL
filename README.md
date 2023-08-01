@@ -8,6 +8,10 @@ design of a risk calculator using tabular medical databases based on Machine Lea
 aiming a more personalized NCD risk estimation that the current regression-based methods. This works is enclosed in the [WARIFA European Project](https://www.warifa.eu/), whose main ojective is to 
 develop an AI-based smartphone application to prevent chronic conditions, such as Diabetes Mellitus or Cardiovascular Diseases (CVD) by providing personalized recommendations depending on the subject and the variables that are collected from him. So, a preliminary basic high-level performance profiling has been also done to estimate the feasibility of implement this ML-based calculator in a micro-controller. 
 
+Please cite [our paper]([https://ieeexplore.ieee.org/document/9851514](https://dsd-seaa2023.com/) if this piece of code somehow helped you in your research and/or development work, or if you used this piece of code: 
+
+*A. J. Rodriguez-Almeida et al., "Novel Approach for AI-based Risk Calculator Development using Transfer Learning Suitable for Embedded Systems," ___ doi: ____.*
+
 ## Datasets Availability
 
 Both datasets are avilable under request to their authors.
