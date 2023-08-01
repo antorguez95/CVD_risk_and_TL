@@ -29,6 +29,8 @@ Both datasets are avilable under request to their authors (see [5] and [6] refer
 
 ## Requirements to run this code
 
+This code was developed with Python ___, with `ipykernel` installed to run the framework using Jupyter Notebooks. 
+
 ## How do I run these scripts?
 
 ## Generated results 
