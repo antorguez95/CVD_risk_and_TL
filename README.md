@@ -21,7 +21,7 @@ The content of the scripts are described below:
 
 Please cite [our paper](https://dsd-seaa2023.com/) if this framework somehow helped you in your research and/or development work, or if you used this piece of code: 
 
-*A. J. Rodriguez-Almeida et al., "Novel Approach for AI-based Risk Calculator Development using Transfer Learning Suitable for Embedded Systems," ___ doi: ____.*
+*A. J. Rodriguez-Almeida et al., "Novel Approach for AI-based Risk Calculator Development using Transfer Learning Suitable for Embedded Systems" ___ doi: ____.*
 
 ## Datasets Availability
 
