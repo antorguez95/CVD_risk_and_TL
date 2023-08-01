@@ -3,10 +3,9 @@
 ## What's in this repository?
 
 This repository contains the code of our work presented on the [26th Euromicro Conference Series on Digital System Design (DSD)](https://dsd-seaa2023.com/) in Durres, Albania, in September of 2023: 
-[*"Novel Approach for AI-based Risk Calculator Development using Transfer Learning Suitable for Embedded Systems"*](https://dsd-seaa2023.com/). This works present a methodology for the preliminary
-design of a risk calculator using tabular medical databases based on Machine Learning (ML), combining the knowledge of different clinically validated cardiovascular risk calculators using Transfer Learning, 
-aiming a more personalized NCD risk estimation that the current regression-based methods. This works is enclosed in the [WARIFA European Project](https://www.warifa.eu/), whose main ojective is to 
-develop an AI-based smartphone application to prevent chronic conditions, such as Diabetes Mellitus or Cardiovascular Diseases (CVD) by providing personalized recommendations depending on the subject and the variables that are collected from him. So, a preliminary basic high-level performance profiling has been also done to estimate the feasibility of implement this ML-based calculator in a micro-controller. 
+[*"Novel Approach for AI-based Risk Calculator Development using Transfer Learning Suitable for Embedded Systems"*](https://dsd-seaa2023.com/). This works presents a methodology for the preliminary
+design of a risk calculator using medical tabular databases based on Machine Learning (ML), combining the knowledge of different clinically validated cardiovascular risk calculators using Transfer Learning. This aims a more personalized NCD risk estimation than the current regression-based approaches. This work is enclosed in the [WARIFA European Project](https://www.warifa.eu/), whose main ojective is to 
+develop an AI-based application to prevent chronic conditions, such as Diabetes Mellitus or Cardiovascular Diseases (CVD), by providing personalized recommendations depending on the subject and the variables that are collected from him. So, a preliminary basic high-level performance profiling has been also done to estimate the feasibility of implementing this ML-based calculator in a micro-controller. 
 
 The content of the scripts are described below: 
 
@@ -28,10 +27,14 @@ Both datasets are avilable under request to their authors (see [5] and [6] refer
 
 ## Requirements to run this code
 
-This code was developed with Python ___, with `ipykernel` installed to run the framework using Jupyter Notebooks. 
+This code was developed with Python ___, with `ipykernel` installed to run the framework using Jupyter Notebooks, so this feature must be supported by your software development tool. 
 
 ## How do I run these scripts?
+
+After changing the correspondant paths, filenames, etc. from `constants.py` to the corresponding of your path, you just have to run one of the `ipynb` files in the devlopment environment you use. 
 
 ## Generated results 
 
 ## Learn more
+
+For any other questions related with the code or the [proposed framework](https://dsd-seaa2023.com/) itself, you can post an issue on this repository or contact me via email.
