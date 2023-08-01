@@ -1,4 +1,4 @@
-# Using Transfer Learning and Machine Learning to design Cardiovascular Diseases risk calculators
+# Using Transfer Learning and Machine Learning to design a Cardiovascular Diseases risk calculator
 
 ## What's in this repository?
 
