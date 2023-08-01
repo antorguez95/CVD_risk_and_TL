@@ -16,7 +16,7 @@ The content of the scripts are described below:
   - `sdg_utils.py`: synthetic data generation functions used to balance the Framingham dataset
   - `train_utils.py`: functions to train the model. 
   - `profiling.py`: profiling functions extracted from [this example](https://scikit-learn.org/stable/auto_examples/applications/plot_prediction_latency.html#sphx-glr-auto-examples-applications-plot-prediction-latency-py)
-  - `constants.py`: file the the directories, filenames, dataset names, and numerical and categorical features. 
+  - `constants.py`: file with the name of the directories, file names, dataset names, and numerical and categorical features. 
   - `steno2fram.ipynb`and `fram2steno.ipynb`are the Python Notebooks that contain the framework itself. The former taking Steno database as reference, and the latter taking Framingham dataset. 
 
 Please cite [our paper](https://dsd-seaa2023.com/) if this framework somehow helped you in your research and/or development work, or if you used this piece of code: 
