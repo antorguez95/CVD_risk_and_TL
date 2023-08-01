@@ -35,6 +35,8 @@ After changing the correspondant paths, filenames, etc. from `constants.py` to t
 
 ## Generated results 
 
+The execution of each `.ipynb`file generates the `EDA` and `results` folders. Mainly, in the `EDA` folder, the histograms of the different continous variables of the datasets are stored, to visually demonstrate the heterogeneity of both datasets. In the `results` folder, an Excel file contiaining the results pre-TL and post-TL are placed, including also the classification confusion matrices. Please, refer to our [paper](https://dsd-seaa2023.com/) for a more detailed analysis of the obtained results. 
+
 ## Learn more
 
 For any other questions related with the code or the [proposed framework](https://dsd-seaa2023.com/) itself, you can post an issue on this repository or contact me via email.
