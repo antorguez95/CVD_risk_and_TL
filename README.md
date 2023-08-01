@@ -14,7 +14,7 @@ Please cite [our paper](https://dsd-seaa2023.com/) if this piece of code somehow
 
 ## Datasets Availability
 
-Both datasets are avilable under request to their authors (see [5] and [6] references in the [paper](https://dsd-seaa2023.com/) for Steno and Framingham availability, respectively .
+Both datasets are avilable under request to their authors (see [5] and [6] references in the [paper](https://dsd-seaa2023.com/) for Steno and Framingham availability, respectively).
 
 ## Set up before running this code
 
