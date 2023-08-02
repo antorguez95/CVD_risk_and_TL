@@ -31,7 +31,7 @@ This code was developed with Python ___, with `ipykernel` installed to run the f
 
 ## How do I run these scripts?
 
-After changing the correspondant paths, filenames, etc. from `constants.py` to the corresponding of your path, you just have to run one of the `ipynb` files in the devlopment environment you use. 
+After changing the paths, filenames, etc. from `constants.py` to the corresponding ones of your paths, you just have to run one of the `ipynb` files in the development environment you use. 
 
 ## Generated results 
 
