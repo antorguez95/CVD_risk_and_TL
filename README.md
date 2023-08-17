@@ -27,7 +27,7 @@ Both datasets are avilable under request to their authors (see [5] and [6] refer
 
 ## Requirements to run this code
 
-This code was developed with Python ___, with `ipykernel` installed to run the framework using Jupyter Notebooks, so this feature must be supported by your software development tool. 
+This code was developed with Python 3.8.13, with `ipykernel` installed to run the framework using Jupyter Notebooks, so this feature must be supported by your software development tool. 
 
 ## How do I run these scripts?
 
