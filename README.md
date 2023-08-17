@@ -27,15 +27,15 @@ Both datasets are avilable under request to their authors (see [5] and [6] refer
 
 ## Requirements to run this code
 
-This code was developed with Python ___, with `ipykernel` installed to run the framework using Jupyter Notebooks, so this feature must be supported by your software development tool. 
+This code was developed with Python 3.8.13, with `ipykernel` installed to run the framework using Jupyter Notebooks, so this feature must be supported by your software development tool. 
 
 ## How do I run these scripts?
 
-After changing the paths, filenames, etc. from `constants.py` to the corresponding ones of your paths, you just have to run one of the `ipynb` files in the development environment you use. 
+After changing the paths, filenames, etc. from `constants.py` to the corresponding ones of your paths, you just have to run one of the `.ipynb` files in the development environment you use. 
 
 ## Generated results 
 
-The execution of each `.ipynb`file generates the `EDA` and `results` folders. Mainly, in the `EDA` folder, the histograms of the different continous variables of the datasets are stored, to visually demonstrate the heterogeneity of both datasets. In the `results` folder, an Excel file contiaining the results pre-TL and post-TL are placed, including also the classification confusion matrices. Please, refer to our [paper](https://dsd-seaa2023.com/) for a more detailed analysis of the obtained results. 
+The execution of each `.ipynb`file generates the `EDA` and `results` folders. Mainly, in the `EDA` folder, the histograms of the different continous variables of the datasets are stored, to visually demonstrate the heterogeneity of both datasets. In the `results` folder, an Excel file containing the results pre-TL and post-TL are placed, including also the classification confusion matrices. Please, refer to our [paper](https://dsd-seaa2023.com/) for a more detailed analysis of the obtained results. 
 
 ## Learn more
 
