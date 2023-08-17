@@ -26,7 +26,7 @@ def eda(data : pd.DataFrame, X : pd.DataFrame , Y : pd.DataFrame, dataset_name :
      """Performs Exploratory Data Analysis (EDA) when a dataset if given:
      General information, dataset dimensions, amount of missing data, control/cases ratio, 
      histograms, boxplots and Pearson's correlation matrix are computed and stored. Store
-     the obtained results in the '/EDA' folder.
+     the obtained results in the '/EDA' folder by default.
 
      Args:
      -----

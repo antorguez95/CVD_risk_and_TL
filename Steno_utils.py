@@ -24,14 +24,14 @@ import numpy as np
 from sklearn.preprocessing import OneHotEncoder
 import math 
 
-def prepare_Steno(dataset_path : str = "", filename1 : str = "", filename2 : str = "") -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, str, str]:
+def prepare_Steno(dataset_path : str, filename1 : str, filename2 : str) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, str, str]:
     """Read the Steno dataset from a .csv file and suit it to be processed 
     as a pd.DataFrame. This converted DataFrame is returned. 
 
     Args:
     -----
-            dataset_path: path where dataset is stored. Set by default.
-            filename1 : file name of the .csv containing the dataset. Set by default.
+            dataset_path: path where dataset is stored. 
+            filename1 : file name of the .csv containing the dataset.
             fiename2 : file name of the .csv containing the regression Ground Truth 
 
     Returns:
@@ -182,7 +182,7 @@ def one_hot_enc_Steno(data):
 
     Returns:
     --------
-            data: dataframe with the categories represented by their correspondant string  
+            data: dataframe after One-Hot Encoding. 
     """
     
     # One-hot Encoder declaration 

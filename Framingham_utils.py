@@ -23,14 +23,14 @@ import numpy as np
 from typing import Tuple
 from sklearn.preprocessing import OneHotEncoder
 
-def prepare_Framingham(dataset_path : str = "", filename : str = "") -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, str, str]:
+def prepare_Framingham(dataset_path : str, filename : str) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, str, str]:
     """Read the Framingham dataset from a .csv file and suit it to be processed 
     as a pd.DataFrame. This converted DataFrame is returned. 
 
     Args:
     -----
-            dataset_path: path where dataset is stored. Set by default.
-            filename : file name of the .csv containing the dataset. Set by default.
+            dataset_path: path where dataset is stored.
+            filename : file name of the .csv containing the dataset.
 
     Returns:
     --------
@@ -122,8 +122,6 @@ def general_conversion_Framingham (data : pd.DataFrame) -> pd.DataFrame :
     Args:
     -----
             data: dataset with datatypes not corresponding to the original ones.
-            features: list of strings containing the feature names of the dataset. 
-            y_col: target variable (i.e., Y) name 
 
     Returns:
     --------
@@ -174,7 +172,7 @@ def one_hot_enc_Framingham(data):
 
     Returns:
     --------
-            data: dataframe with the categories represented by their correspondant string  
+            data: dataframe after One-Hot Encoding  
     """
     
     # One-hot Encoder declaration 
