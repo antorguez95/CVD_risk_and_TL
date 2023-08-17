@@ -1,3 +1,22 @@
+# Copyright (C) 2023 Antonio Rodriguez
+# 
+# This file is part of Transfer_Learning_for_CVD_risk_calculators.
+# 
+# Transfer_Learning_for_CVD_risk_calculators is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# Transfer_Learning_for_CVD_risk_calculators is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with Transfer_Learning_for_CVD_risk_calculators.
+# If not, see <http://www.gnu.org/licenses/>.
+
+
 import pandas as pd 
 from typing import Tuple
 import os   
@@ -58,7 +77,7 @@ def prepare_Steno(dataset_path : str = "", filename1 : str = "", filename2 : str
     
     return data, X, Y, cols_names, y_tag
 
-def steno_original_risk_calculator(X:pd.DataFrame) -> pd.DataFrame: 
+def steno_original_risk_calculator(X : pd.DataFrame) -> pd.DataFrame: 
 
     """Computes a risk prediction of sufferin from Cardiovascular Diseases
     in 10 years as described by Vistisen et al., 2016 [1]. Formula can be 

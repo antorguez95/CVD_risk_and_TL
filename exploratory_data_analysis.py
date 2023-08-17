@@ -1,20 +1,40 @@
+# Copyright (C) 2023 Antonio Rodriguez
+# 
+# This file is part of Transfer_Learning_for_CVD_risk_calculators.
+# 
+# Transfer_Learning_for_CVD_risk_calculators is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# Transfer_Learning_for_CVD_risk_calculators is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with Transfer_Learning_for_CVD_risk_calculators.
+# If not, see <http://www.gnu.org/licenses/>.
+
+
 import matplotlib.pyplot as plt
 import os 
 import pandas as pd
 import seaborn as sn
 
-def eda(data : pd. DataFrame, X : pd.DataFrame , Y : pd.DataFrame, dataset_name : str, folder : str = r"./EDA") :
+def eda(data : pd.DataFrame, X : pd.DataFrame , Y : pd.DataFrame, dataset_name : str, folder : str = r"./EDA") :
      """Performs Exploratory Data Analysis (EDA) when a dataset if given:
      General information, dataset dimensions, amount of missing data, control/cases ratio, 
-     histograms, boxplots and Pearson's correlation matrix are computed and stored. 
+     histograms, boxplots and Pearson's correlation matrix are computed and stored. Store
+     the obtained results in the '/EDA' folder.
 
      Args:
      -----
-          data: the whole dataset with features and target variable
-          X: features of the dataset
-          Y: target variable of the dataset
-          dataset_name: name of the dataset to properly store the files 
-          folder: folder to save the generated files. Defaults to r"./EDA"
+          data (pd.DataFrame): the whole dataset with features and target variable
+          X (pd.DataFrame): features of the dataset
+          Y (pd.DataFrame): target variable of the dataset
+          dataset_name (str): name of the dataset to properly store the files 
+          folder (str): folder to save the generated files. Defaults to r"./EDA" (for Windows)
 
      Returns:
      --------
