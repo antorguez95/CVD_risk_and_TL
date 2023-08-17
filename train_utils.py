@@ -1,31 +1,20 @@
-
-# Copyright (C) 2022 Daniel Enériz and Antonio Rodriguez
+# Copyright (C) 2023 Antonio Rodriguez
 # 
-# This file is part of _________.
+# This file is part of CVD_risk_and_TL.
 # 
-# ________ is free software: you can redistribute it and/or modify
+# CVD_risk_and_TL is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 # 
-# ________ is distributed in the hope that it will be useful,
+# CVD_risk_and_TL is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 # 
 # You should have received a copy of the GNU General Public License
-# along with _________.  If not, see <http://www.gnu.org/licenses/>.
-#
-#  
-# Author: Antonio Rodriguez (aralmeida@iuma.ulpgc.es)
-# train_utils.py (c) 2022
-# Desc: _________.
-# Created:  2022-02-25T07:47:00.244Z _______
-# Modified: 2022-03-22T14:40:20.518Z ________
-# 
-
-
-##### CAMBIAR LICENCIA 
+# along with CVD_risk_and_TL.
+# If not, see <http://www.gnu.org/licenses/>.
 
 
 # Dependencies 

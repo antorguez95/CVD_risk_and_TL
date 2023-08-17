@@ -1,21 +1,20 @@
 # Copyright (C) 2023 Antonio Rodriguez
 # 
-# This file is part of Transfer_Learning_for_CVD_risk_calculators.
+# This file is part of CVD_risk_and_TL.
 # 
-# Transfer_Learning_for_CVD_risk_calculators is free software: you can redistribute it and/or modify
+# CVD_risk_and_TL is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 # 
-# Transfer_Learning_for_CVD_risk_calculators is distributed in the hope that it will be useful,
+# CVD_risk_and_TL is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 # 
 # You should have received a copy of the GNU General Public License
-# along with Transfer_Learning_for_CVD_risk_calculators.
+# along with CVD_risk_and_TL.
 # If not, see <http://www.gnu.org/licenses/>.
-
 
 # Dependencies 
 import os 
