@@ -19,7 +19,7 @@ The content of the scripts are described below:
 
 Please cite [our paper](https://ieeexplore.ieee.org/document/10456783) if this framework somehow helped you in your research and/or development work, or if you used this piece of code: 
 
-*A. J. Rodriguez-Almeida et al., "Novel Approach for AI-based Risk Calculator Development using Transfer Learning Suitable for Embedded Systems" ___ doi: ____.*
+*A. J. Rodríguez-Almeida, H. Fabelo, C. Soguero-Ruiz, R. M. Sanchez-Hernandez, A. M. Wägner and G. M. Callico, "Novel Approach for AI-Based Risk Calculator Development Using Transfer Learning Suitable for Embedded Systems," 2023 26th Euromicro Conference on Digital System Design (DSD), Golem, Albania, 2023, pp. 103-110, doi: 10.1109/DSD60849.2023.00024.*
 
 ## Datasets Availability
 
